@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StackLayout_Exercise1.MainPage"
+             BackgroundColor="#127ac7">
+
+    <StackLayout 
+        VerticalOptions="Center"
+        Spacing="20">
+        <Label 
+            Text="Welcome to .NET MAUI"
+            FontSize="30"
+            FontAttributes="Bold"
+            HorizontalOptions="Center"/>
+        <Label
+            Text="Cross-platform apps made easy"
+            FontSize="18"
+            HorizontalOptions="Center"/>
+        <Button
+            Text="Login"
+            BackgroundColor="#1dabf0"/>
+        <Button
+            Text="Register"
+            BackgroundColor="#1dabf0"/>
+    </StackLayout>
+</ContentPage>

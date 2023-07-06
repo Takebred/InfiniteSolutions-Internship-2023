@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StackLayout_Exercise2.MainPage">
+
+    <StackLayout>
+        <StackLayout Spacing="20">
+            <Label Text=".netmaui_official" Padding="10"/>
+            <Image Source="https://cdn.pixabay.com/photo/2016/02/13/12/26/aurora-1197753_1280.jpg"/>
+        </StackLayout>
+        <StackLayout Padding="10" Spacing="20">
+            <StackLayout Orientation="Horizontal" Spacing="20">
+                <Label Text="Like" TextColor="Gray"/>
+                <Label Text="Comment" TextColor="Gray"/>
+                <Label Text="Share" TextColor="Gray"/>
+            </StackLayout>
+            <StackLayout Spacing="20">
+                <BoxView Color="#f0f0f0" HeightRequest="1"/>
+                <Label Text="700 likes" FontSize="18" FontAttributes="Bold"/>
+                <Label Text="This is a shot yesterday in Skanor, Sweden, when driving home, from a couple of days of work in Denmark."/>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

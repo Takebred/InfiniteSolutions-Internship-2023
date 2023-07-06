@@ -1,0 +1,1 @@
+E:\Projets\C#\InfiniteSolutions-Internship-2023\Mosh Hamedani-Xamarin forms\StackLayout-Exercise1\StackLayout-Exercise1.csproj;x64
