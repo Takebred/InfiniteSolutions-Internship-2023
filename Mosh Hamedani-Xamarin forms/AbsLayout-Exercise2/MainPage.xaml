@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AbsLayout_Exercise2.MainPage">
+
+    <AbsoluteLayout>
+        <Image Source="https://static.wixstatic.com/media/bb1bd6_e6e9a747aeb448a899cd0a5364426ed9~mv2.png"
+               HorizontalOptions="CenterAndExpand"/>
+        <Label Text="Relax"
+               FontSize="30"
+               AbsoluteLayout.LayoutBounds="0,20,1,1"
+               AbsoluteLayout.LayoutFlags="XProportional,SizeProportional"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold"/>
+        <BoxView AbsoluteLayout.LayoutBounds="0,1,1,100"
+                 AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+                 Opacity="0.5"
+                 Color="Black"/>
+        <StackLayout AbsoluteLayout.LayoutBounds="0,1,1,100"
+                     AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+                     Orientation="Horizontal">
+            <Label Text="Profile"
+                   FontSize="15"
+                   VerticalOptions="Center"
+                   Padding="40"/>
+            <Label Text="Meditate"
+                   FontSize="15"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"/>
+            <Label Text="Themes"
+                   FontSize="15"
+                   VerticalOptions="Center"
+                   Padding="40"/>
+        </StackLayout>
+    </AbsoluteLayout>
+</ContentPage>
